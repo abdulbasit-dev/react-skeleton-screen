@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Articles from './components/Articles'
+import UserProfile from './components/UserProfile'
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
         <h1>React Skeleton</h1>
       </header>
       <div className="app__content">
-        
+        <Articles/>
+        <UserProfile/>
       </div>
     </div>
   );
