@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Articles from './components/Articles'
-import UserProfile from './components/UserProfile'
+import User from './components/User'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </header>
       <div className="app__content">
         <Articles/>
-        <UserProfile/>
+        <User/>
       </div>
     </div>
   );
